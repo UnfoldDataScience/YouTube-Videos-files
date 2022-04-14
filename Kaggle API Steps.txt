@@ -1,0 +1,32 @@
+Step 1
+
+Installing package
+pip install kaggle
+
+Step 2
+Putting json at right location
+
+
+Step 3 - Searching dataset
+kaggle datasets list -s [KEYWORD] - 
+kaggle datasets list -s titanic
+
+Step 4 - Downloading dataset
+kaggle datasets download -d [DATASET] - 
+kaggle datasets download -d cities/titanic123
+
+Step 5 - Finding Kernerl
+kaggle kernels list -s [KEYWORD] 
+kaggle kernels list -s 'iris'
+
+Step 6 - Downloading Kernerl
+kaggle kernels pull [KERNEL] -p /path/to/download -m 
+kaggle kernels pull alexisbcook/distributions
+
+Step 7 - List currently active competitions
+kaggle competitions list
+
+Step 8 - Download files associated with a competition
+kaggle competitions download -c [COMPETITION]
+kaggle competitions download -c kaggle-survey-2021
+
