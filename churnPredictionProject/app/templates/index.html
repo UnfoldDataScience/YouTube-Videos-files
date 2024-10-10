@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Prediction UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    <p>Enter the following details to predict if the customer will churn:</p>
+    <form action="/predict" method="POST">
+        <label for="tenure">Tenure (Months):</label><br>
+        <input type="number" id="tenure" name="tenure"><br>
+        
+        <label for="monthlycharges">Monthly Charges:</label><br>
+        <input type="number" id="monthlycharges" name="monthlycharges"><br>
+        
+        <label for="gender female">Gender Female (1 or 0):</label><br>
+        <input type="number" id="gender_f" name="gender_f"><br>
+
+        <label for="gender male">Gender Male (1 or 0):</label><br>
+        <input type="number" id="gender_m" name="gender_m"><br>
+        
+        <label for="contract1">Contract - One Year (1 or 0):</label><br>
+        <input type="number" id="contract1" name="contract1"><br>
+        
+        <label for="contract2">Contract - Two Year (1 or 0):</label><br>
+        <input type="number" id="contract2" name="contract2"><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>

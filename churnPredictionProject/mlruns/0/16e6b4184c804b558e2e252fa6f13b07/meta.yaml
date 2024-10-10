@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/YouTubeProjects/churnPredictionProject/mlruns/0/16e6b4184c804b558e2e252fa6f13b07/artifacts
+end_time: 1728141343276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 16e6b4184c804b558e2e252fa6f13b07
+run_uuid: 16e6b4184c804b558e2e252fa6f13b07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728141343191
+status: 3
+tags: []
+user_id: amanr
