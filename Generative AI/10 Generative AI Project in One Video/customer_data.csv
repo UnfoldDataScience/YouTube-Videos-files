@@ -1,0 +1,5 @@
+name,email,purchase_history,location,preferences
+John Doe,john.doe@example.com,"Laptop, Headphones",New York,Tech
+Jane Smith,jane.smith@example.com,"Dress, Shoes",London,Fashion
+Robert Lee,robert.lee@example.com,"Books, Coffee",Paris,Literature
+Alice Johnson,alice.johnson@example.com,"Gardening Tools, Seeds",Tokyo,Gardening

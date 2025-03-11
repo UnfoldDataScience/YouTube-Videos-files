@@ -1,0 +1,20 @@
+def a_function(some_var, another_var):
+    if some_var > another_var:
+        result = some_var
+    else:
+        result = another_var
+    return result
+
+my_list = [1, 2, 3, 4, 5]
+i = 0
+while i < len(my_list):
+    print(my_list[i])
+    i = i + 1
+
+the_string = "   hello world   "
+print(the_string.strip())
+
+def some_calc(x,y,z):
+    return x*y+z
+
+print(some_calc(1,2,3))

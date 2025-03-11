@@ -1,0 +1,16 @@
+streamlit
+openai
+dotenv
+langchain
+pandas
+FAISS
+sounddevice
+soundfile
+pandas 
+matplotlib 
+seaborn
+moviepy
+ffmpeg
+music21
+midi2audio
+pydub
