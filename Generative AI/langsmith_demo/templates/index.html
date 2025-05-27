@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langchain Q&A System demo for YouTube</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        #question { width: 100%; padding: 10px; margin-bottom: 10px; }
+        #submit { padding: 10px 20px; }
+        #answer { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Langchain Q&A System for YT learners</h1>
+    <input type="text" id="question" placeholder="Enter your question here">
+    <button id="submit">Ask</button>
+    <pre id="answer"></pre>
+
+    <script>
+        $(document).ready(function() {
+            $('#submit').click(function() {
+                var question = $('#question').val();
+                $.ajax({
+                    url: 'http://localhost:5000/ask',
+                    method: 'POST',
+                    data: { question: question },
+                    success: function(response) {
+                        $('#answer').text(response.answer);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+fastapi 
+langserve 
+langchain 
+ollama 
+langsmith 
+uvicorn 
+streamlit
