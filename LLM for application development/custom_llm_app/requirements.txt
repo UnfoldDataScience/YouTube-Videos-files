@@ -1,0 +1,27 @@
+# Core ML libraries - specific versions for compatibility
+torch>=1.13.0
+transformers>=4.21.0,<5.0.0
+datasets>=2.4.0
+tokenizers>=0.13.0
+
+# Training and evaluation
+scikit-learn>=1.1.0
+accelerate>=0.12.0
+evaluate>=0.2.0
+
+# Data processing
+pandas>=1.4.0
+numpy>=1.21.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# API deployment
+fastapi>=0.85.0
+uvicorn[standard]>=0.18.0
+pydantic>=1.10.0
+
+# Utilities
+tqdm>=4.64.0
+requests>=2.28.0
