@@ -1,0 +1,7 @@
+
+streamlit
+openai
+scikit-learn
+pandas
+# optional if you upgrade GraphRAG:
+networkx

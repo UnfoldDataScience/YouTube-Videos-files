@@ -1,0 +1,27 @@
+{
+  "n_chunks": 3,
+  "queries": [
+    {
+      "query": "Why does RAG improve accuracy?",
+      "confidence": 0.036254227905462184,
+      "top_indices": [
+        0,
+        2,
+        1
+      ],
+      "answer_excerpt": "Question: Why does RAG improve accuracy?\n\nAnswer (grounded by retrieved contexts):\nRetrieval-Augmented Generation (RAG) allows language models to access external, trusted data sources before generatin...",
+      "needs_corrective_action": true
+    },
+    {
+      "query": "How are agentic AI systems different from chatbots?",
+      "confidence": 0.21713450160321499,
+      "top_indices": [
+        1,
+        2,
+        0
+      ],
+      "answer_excerpt": "Question: How are agentic AI systems different from chatbots?\n\nAnswer (grounded by retrieved contexts):\nAgentic AI systems act with goals, decompose tasks, and can operate over tools and memory in mul...",
+      "needs_corrective_action": true
+    }
+  ]
+}
