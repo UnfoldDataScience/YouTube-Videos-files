@@ -1,0 +1,17 @@
+# Dependencies for the knowledge graph extractor.
+
+# The core dependency for interacting with the OpenAI API. Without this
+# package the script cannot perform any extraction.
+openai>=1.0.0
+
+# To run the Streamlit UI you will need streamlit. If you do not plan to
+# use the UI you can omit this package.
+streamlit>=1.25.0
+
+# NetworkX is optional but recommended. It is used to build and traverse
+# the graph. If it is not installed, the CLI and UI will fall back to a
+# simple adjacency dictionary.
+networkx>=3.0
+dotenv
+plotly
+scipy
