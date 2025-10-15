@@ -1,0 +1,29 @@
+# --- Build tools (install first) ---
+pip>=24.0
+setuptools>=70.0
+wheel>=0.43.0
+packaging>=24.0
+
+# --- Core scientific stack (Py 3.12 compatible) ---
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+matplotlib==3.8.4
+joblib==1.4.2
+pyyaml==6.0.2
+
+# --- Streamlit UI ---
+streamlit==1.35.0
+
+# --- Explainability (optional; comment out if it tries to build) ---
+shap==0.45.1
+
+# --- Optional tree model (comment out if it tries to build) ---
+xgboost==2.0.3
+
+# --- Dev / QA ---
+ruff==0.5.5
+black==24.8.0
+isort==5.13.2
+pytest==8.2.0
+pre-commit==3.7.1
