@@ -1,0 +1,15 @@
+2025-09-13 14:45:15,966 - train - INFO - Starting training with model=random_forest, use_pca=False, use_poly=False, fast=True
+2025-09-13 14:45:16,316 - train - INFO - Starting hyperparameter search with 5 iterations and 2 CV folds
+2025-09-13 14:45:37,500 - train - INFO - Best hyperparameters: {'model__n_estimators': 200, 'model__min_samples_split': 5, 'model__min_samples_leaf': 2, 'model__max_depth': None}
+2025-09-13 14:45:37,602 - train - INFO - Validation metrics - RMSE: 41.4370, MAE: 30.9303, R^2: 0.9326
+2025-09-13 14:45:52,302 - train - INFO - Saved model to artifacts/model.joblib
+2025-09-13 19:15:45,946 - train - INFO - Starting training with model=random_forest, use_pca=False, use_poly=False, fast=True
+2025-09-13 19:15:46,430 - train - INFO - Starting hyperparameter search with 5 iterations and 2 CV folds
+2025-09-13 19:16:54,352 - train - INFO - Best hyperparameters: {'model__n_estimators': 200, 'model__min_samples_split': 5, 'model__min_samples_leaf': 2, 'model__max_depth': None}
+2025-09-13 19:16:54,494 - train - INFO - Validation metrics - RMSE: 0.4959, MAE: 0.3287, R^2: 0.8178
+2025-09-13 19:17:35,112 - train - INFO - Saved model to artifacts\model.joblib
+2025-09-21 17:12:50,839 - train - INFO - Starting training with model=random_forest, use_pca=False, use_poly=False, fast=True
+2025-09-21 17:12:51,049 - train - INFO - Starting hyperparameter search with 5 iterations and 2 CV folds
+2025-09-21 17:13:41,757 - train - INFO - Best hyperparameters: {'model__n_estimators': 200, 'model__min_samples_split': 5, 'model__min_samples_leaf': 2, 'model__max_depth': None}
+2025-09-21 17:13:41,920 - train - INFO - Validation metrics - RMSE: 0.4959, MAE: 0.3287, R^2: 0.8178
+2025-09-21 17:14:14,081 - train - INFO - Saved model to artifacts\model.joblib

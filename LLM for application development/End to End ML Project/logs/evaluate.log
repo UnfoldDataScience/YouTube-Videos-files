@@ -1,0 +1,9 @@
+2025-09-13 14:45:55,600 - evaluate - INFO - Starting evaluation; skip_shap=True, fast=True
+2025-09-13 14:45:56,604 - evaluate - INFO - Test metrics - RMSE: 39.0912, MAE: 29.3022, R^2: 0.9390
+2025-09-13 14:45:57,018 - evaluate - INFO - Skipping SHAP explanations as requested.
+2025-09-13 19:17:49,297 - evaluate - INFO - Starting evaluation; skip_shap=True, fast=True
+2025-09-13 19:17:50,473 - evaluate - INFO - Test metrics - RMSE: 0.5083, MAE: 0.3321, R^2: 0.8032
+2025-09-13 19:17:53,390 - evaluate - INFO - Skipping SHAP explanations as requested.
+2025-09-13 19:18:03,650 - evaluate - INFO - Starting evaluation; skip_shap=False, fast=True
+2025-09-13 19:18:04,929 - evaluate - INFO - Test metrics - RMSE: 0.5083, MAE: 0.3321, R^2: 0.8032
+2025-09-13 19:18:34,384 - evaluate - INFO - SHAP explanations unavailable or failed: Additivity check failed in TreeExplainer! Please ensure the data matrix you passed to the explainer is the same shape that the model was trained on. If your data shape is correct then please report this on GitHub. This check failed because for one of the samples the sum of the SHAP values was 1.016300, while the model output was 0.961621. If this difference is acceptable you can set check_additivity=False to disable this check.
